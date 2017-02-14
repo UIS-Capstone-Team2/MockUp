@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///Users/brettcrumrine/SoftTopics%20copy/ReportsDash.htm -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="file:///Users/favicon.ico">
+
+    <title>Dashboard Template for Bootstrap</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./ReportsDash_files/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="./ReportsDash_files/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./ReportsDash_files/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="./ReportsDash_files/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./ReportsDash_files/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="./ReportsDash_files/bootstrap.min(1).css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="file:///Users/brettcrumrine/SoftTopics%20copy/bootstrap-3.3.7/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./ReportsDash_files/dashboard.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="file:///Users/assets/js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+		  <img src="./ReportsDash_files/logo.png" id="logo" width="64" height="38">
+          <a class="navbar-brand" href="file:///Users/brettcrumrine/SoftTopics%20copy/index.html#">Blockbuster Movies</a>
+        </div>
+        <div id="navbar" class="navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="file:///Users/brettcrumrine/SoftTopics%20copy/index.html#">Home</a></li>
+            <li><a href="file:///Users/brettcrumrine/SoftTopics%20copy/index.html#">Settings</a></li>
+            <li><a href="file:///Users/brettcrumrine/SoftTopics%20copy/index.html#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Movie Search...">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="file:///Users/brettcrumrine/SoftTopics%20copy/HomePage.htm">Home <span class="sr-only">(current)</span></a></li>
+          </ul>
+		  <ul class="nav nav-sidebar">
+			<li><a href="file:///Users/brettcrumrine/SoftTopics%20copy/index.html#">Renting</a></li>
+            <li><a href="file:///Users/brettcrumrine/SoftTopics%20copy/index.html#">Returning</a></li>
+			<li><a href="file:///Users/brettcrumrine/SoftTopics%20copy/index.html#">Batch Return</a></li>
+          </ul>
+          <ul class="nav nav-sidebar in">
+            <li><a href="file:///Users/brettcrumrine/SoftTopics%20copy/ReportsDash.htm" class="active">Reports</a></li>
+            <li><a href="file:///Users/brettcrumrine/SoftTopics%20copy/index.html" class="active">Analytics</a></li>
+			<li><a href="file:///Users/brettcrumrine/SoftTopics%20copy/index.html" class="active">User Account Data</a></li>
+          </ul>
+        </div>
+
+
+		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+      <div id="page-wrapper" style="min-height: 561px; margin-left: 20px;">
+          <div class="row">
+              <div class="col-lg-12">
+                  <h1 class="page-header">Reports Dashboard</h1>
+              </div>
+              <!-- /.col-lg-12 -->
+          </div>
+          <!-- /.row -->
+          <div class="row">
+              <div class="col-lg-3 col-md-6">
+                  <div class="panel panel-primary">
+                      <div class="panel-heading">
+                          <div class="row">
+                              <div class="col-xs-3">
+                                  <i class="fa fa-comments fa-5x"></i>
+                              </div>
+                              <div class="col-xs-9 text-right">
+                                  <div class="huge">26</div>
+                                  <div>New Rentals</div>
+                              </div>
+                          </div>
+                      </div>
+                      <a href="file:///Users/brettcrumrine/Downloads/startbootstrap-sb-admin-2-gh-pages/pages/index.html#">
+                          <div class="panel-footer">
+                              <span class="pull-left">View Details</span>
+                              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                              <div class="clearfix"></div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="panel panel-green">
+                      <div class="panel-heading">
+                          <div class="row">
+                              <div class="col-xs-3">
+                                  <i class="fa fa-tasks fa-5x"></i>
+                              </div>
+                              <div class="col-xs-9 text-right">
+                                  <div class="huge">12</div>
+                                  <div>New Returns</div>
+                              </div>
+                          </div>
+                      </div>
+                      <a href="file:///Users/brettcrumrine/Downloads/startbootstrap-sb-admin-2-gh-pages/pages/index.html#">
+                          <div class="panel-footer">
+                              <span class="pull-left">View Details</span>
+                              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                              <div class="clearfix"></div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="panel panel-yellow">
+                      <div class="panel-heading">
+                          <div class="row">
+                              <div class="col-xs-3">
+                                  <i class="fa fa-shopping-cart fa-5x"></i>
+                              </div>
+                              <div class="col-xs-9 text-right">
+                                  <div class="huge">124</div>
+                                  <div>Employee Logins</div>
+                              </div>
+                          </div>
+                      </div>
+                      <a href="file:///Users/brettcrumrine/Downloads/startbootstrap-sb-admin-2-gh-pages/pages/index.html#">
+                          <div class="panel-footer">
+                              <span class="pull-left">View Details</span>
+                              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                              <div class="clearfix"></div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="panel panel-red">
+                      <div class="panel-heading">
+                          <div class="row">
+                              <div class="col-xs-3">
+                                  <i class="fa fa-support fa-5x"></i>
+                              </div>
+                              <div class="col-xs-9 text-right">
+                                  <div class="huge">13</div>
+                                  <div>Overdue Movies</div>
+                              </div>
+                          </div>
+                      </div>
+                      <a href="file:///Users/brettcrumrine/Downloads/startbootstrap-sb-admin-2-gh-pages/pages/index.html#">
+                          <div class="panel-footer">
+                              <span class="pull-left">View Details</span>
+                              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                              <div class="clearfix"></div>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
+          <!-- /.row -->
+          <div class="row">
+              <div class="col-lg-8">
+                  <div class="panel panel-default">
+                      <div class="panel-heading">
+                          <i class="fa fa-bar-chart-o fa-fw"></i> Weekly Rental Overview
+                          <div class="pull-right">
+                              <div class="btn-group">
+                                  <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Time Period<span class="caret"></span>
+                                  </button>
+                                  <ul class="dropdown-menu pull-right" role="menu">
+                                      <li><a href="file:///Users/brettcrumrine/Downloads/startbootstrap-sb-admin-2-gh-pages/pages/index.html#">Monthly Rental</a>
+                                      </li>
+                                      <li><a href="file:///Users/brettcrumrine/Downloads/startbootstrap-sb-admin-2-gh-pages/pages/index.html#">Yearly Rental</a>
+                                      </li>
+
+                                      <li class="divider"></li>
+
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <!-- /.panel-heading -->
+                      <div class="panel-body">
+                          <div id="morris-area-chart" style="position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><svg height="352" version="1.1" width="793" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative;"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.2.0</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs><text x="49.203125" y="318" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">0</tspan></text><path fill="none" stroke="#aaaaaa" d="M61.703125,318H768" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="49.203125" y="244.75" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">7,500</tspan></text><path fill="none" stroke="#aaaaaa" d="M61.703125,244.75H768" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="49.203125" y="171.5" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">15,000</tspan></text><path fill="none" stroke="#aaaaaa" d="M61.703125,171.5H768" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="49.203125" y="98.25" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">22,500</tspan></text><path fill="none" stroke="#aaaaaa" d="M61.703125,98.25H768" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="49.203125" y="25" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">30,000</tspan></text><path fill="none" stroke="#aaaaaa" d="M61.703125,25H768" stroke-width="0.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><text x="637.5830741165005" y="330.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2012</tspan></text><text x="324.32497958964103" y="330.5" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" font-weight="normal" transform="matrix(1,0,0,1,0,7)"><tspan dy="4.25" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2011</tspan></text><path fill="#7cb57c" stroke="none" d="M61.703125,266.1097C81.43373614785327,260.7380333333333,120.89495844355983,249.58947900906003,140.6255695914131,244.62303333333335C160.36512075337959,239.65433734239338,199.84422307731253,233.16796055846424,219.58377423927902,226.36913333333334C239.1177050766417,219.6411272251309,278.18556675136705,192.52324732451092,297.7194975887297,190.51569999999998C317.0299280732621,188.5311223245109,355.650789042327,208.9405312037249,374.9612195268594,210.40063333333333C394.69183067471266,211.8925062037249,434.15305297041925,201.33006675349188,453.8836641182725,202.3236C473.62321528023904,203.31758342015854,513.1023176041721,235.98715235602097,532.8418687661385,218.35070000000002C552.3757996035012,200.8979606893543,591.4436612782265,70.48043152513924,610.9775921155891,61.96683333333334C630.5025829388386,53.45713152513924,669.5525645853374,137.7742853791847,689.0775554085869,150.2575C708.8081665564403,162.87217704585134,748.2693888521467,159.33317499999998,768,162.3584L768,318L61.703125,318Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="none" stroke="#4da74d" d="M61.703125,266.1097C81.43373614785327,260.7380333333333,120.89495844355983,249.58947900906003,140.6255695914131,244.62303333333335C160.36512075337959,239.65433734239338,199.84422307731253,233.16796055846424,219.58377423927902,226.36913333333334C239.1177050766417,219.6411272251309,278.18556675136705,192.52324732451092,297.7194975887297,190.51569999999998C317.0299280732621,188.5311223245109,355.650789042327,208.9405312037249,374.9612195268594,210.40063333333333C394.69183067471266,211.8925062037249,434.15305297041925,201.33006675349188,453.8836641182725,202.3236C473.62321528023904,203.31758342015854,513.1023176041721,235.98715235602097,532.8418687661385,218.35070000000002C552.3757996035012,200.8979606893543,591.4436612782265,70.48043152513924,610.9775921155891,61.96683333333334C630.5025829388386,53.45713152513924,669.5525645853374,137.7742853791847,689.0775554085869,150.2575C708.8081665564403,162.87217704585134,748.2693888521467,159.33317499999998,768,162.3584" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="61.703125" cy="266.1097" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="140.6255695914131" cy="244.62303333333335" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="219.58377423927902" cy="226.36913333333334" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="297.7194975887297" cy="190.51569999999998" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="374.9612195268594" cy="210.40063333333333" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="453.8836641182725" cy="202.3236" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="532.8418687661385" cy="218.35070000000002" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="610.9775921155891" cy="61.96683333333334" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="689.0775554085869" cy="150.2575" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="768" cy="162.3584" r="2" fill="#4da74d" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><path fill="#a8b4bd" stroke="none" d="M61.703125,291.96206666666666C81.43373614785327,286.0874166666666,120.89495844355983,273.60811363722155,140.6255695914131,268.46346666666665C160.36512075337959,263.3164886372216,199.84422307731253,253.60836666666668,219.58377423927902,250.79556666666667C239.1177050766417,248.01206666666667,278.18556675136705,248.34120839087072,297.7194975887297,246.07826666666665C317.0299280732621,243.84121672420406,355.650789042327,235.93439688573392,374.9612195268594,232.7956C394.69183067471266,229.58850521906726,434.15305297041925,220.5616593072858,453.8836641182725,220.6947C473.62321528023904,220.82780097395244,513.1023176041721,247.45413944153577,532.8418687661385,233.86016666666666C552.3757996035012,220.40779777486912,591.4436612782265,120.48564190890363,610.9775921155891,112.50933333333333C630.5025829388386,104.53667524223697,669.5525645853374,161.69074568435437,689.0775554085869,170.0643C708.8081665564403,178.52603735102105,748.2693888521467,177.40395,768,179.8505L768,318L61.703125,318Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="none" stroke="#7a92a3" d="M61.703125,291.96206666666666C81.43373614785327,286.0874166666666,120.89495844355983,273.60811363722155,140.6255695914131,268.46346666666665C160.36512075337959,263.3164886372216,199.84422307731253,253.60836666666668,219.58377423927902,250.79556666666667C239.1177050766417,248.01206666666667,278.18556675136705,248.34120839087072,297.7194975887297,246.07826666666665C317.0299280732621,243.84121672420406,355.650789042327,235.93439688573392,374.9612195268594,232.7956C394.69183067471266,229.58850521906726,434.15305297041925,220.5616593072858,453.8836641182725,220.6947C473.62321528023904,220.82780097395244,513.1023176041721,247.45413944153577,532.8418687661385,233.86016666666666C552.3757996035012,220.40779777486912,591.4436612782265,120.48564190890363,610.9775921155891,112.50933333333333C630.5025829388386,104.53667524223697,669.5525645853374,161.69074568435437,689.0775554085869,170.0643C708.8081665564403,178.52603735102105,748.2693888521467,177.40395,768,179.8505" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="61.703125" cy="291.96206666666666" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="140.6255695914131" cy="268.46346666666665" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="219.58377423927902" cy="250.79556666666667" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="297.7194975887297" cy="246.07826666666665" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="374.9612195268594" cy="232.7956" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="453.8836641182725" cy="220.6947" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="532.8418687661385" cy="233.86016666666666" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="610.9775921155891" cy="112.50933333333333" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="689.0775554085869" cy="170.0643" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="768" cy="179.8505" r="2" fill="#7a92a3" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><path fill="#2677b5" stroke="none" d="M61.703125,291.96206666666666C81.43373614785327,291.6886,120.89495844355983,293.60957060400153,140.6255695914131,290.8682C160.36512075337959,288.1255872706682,199.84422307731253,271.23985898778363,219.58377423927902,270.02613333333335C239.1177050766417,268.82505065445025,278.18556675136705,283.53944056386655,297.7194975887297,281.2089666666667C317.0299280732621,278.90515723053323,355.650789042327,253.78724181360204,374.9612195268594,251.489C394.69183067471266,249.14075014693535,434.15305297041925,260.19409194035484,453.8836641182725,262.623C473.62321528023904,265.0530086070215,513.1023176041721,282.46426457242586,532.8418687661385,270.92466666666667C552.3757996035012,259.50527290575917,591.4436612782265,177.95130192072938,610.9775921155891,170.78703333333334C630.5025829388386,163.62604358739605,669.5525645853374,205.5585464283003,689.0775554085869,213.62363333333332C708.8081665564403,221.77365476163362,748.2693888521467,230.14150833333332,768,235.64746666666667L768,318L61.703125,318Z" fill-opacity="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;"></path><path fill="none" stroke="#0b62a4" d="M61.703125,291.96206666666666C81.43373614785327,291.6886,120.89495844355983,293.60957060400153,140.6255695914131,290.8682C160.36512075337959,288.1255872706682,199.84422307731253,271.23985898778363,219.58377423927902,270.02613333333335C239.1177050766417,268.82505065445025,278.18556675136705,283.53944056386655,297.7194975887297,281.2089666666667C317.0299280732621,278.90515723053323,355.650789042327,253.78724181360204,374.9612195268594,251.489C394.69183067471266,249.14075014693535,434.15305297041925,260.19409194035484,453.8836641182725,262.623C473.62321528023904,265.0530086070215,513.1023176041721,282.46426457242586,532.8418687661385,270.92466666666667C552.3757996035012,259.50527290575917,591.4436612782265,177.95130192072938,610.9775921155891,170.78703333333334C630.5025829388386,163.62604358739605,669.5525645853374,205.5585464283003,689.0775554085869,213.62363333333332C708.8081665564403,221.77365476163362,748.2693888521467,230.14150833333332,768,235.64746666666667" stroke-width="3" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><circle cx="61.703125" cy="291.96206666666666" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="140.6255695914131" cy="290.8682" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="219.58377423927902" cy="270.02613333333335" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="297.7194975887297" cy="281.2089666666667" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="374.9612195268594" cy="251.489" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="453.8836641182725" cy="262.623" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="532.8418687661385" cy="270.92466666666667" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="610.9775921155891" cy="170.78703333333334" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="689.0775554085869" cy="213.62363333333332" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle><circle cx="768" cy="235.64746666666667" r="2" fill="#0b62a4" stroke="#ffffff" stroke-width="1" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></circle></svg><div class="morris-hover morris-default-style" style="left: 163.553px; top: 166px; display: none;"><div class="morris-hover-row-label">2010 Q3</div><div class="morris-hover-point" style="color: #0b62a4">
+iPhone:
+4,912
+</div><div class="morris-hover-point" style="color: #7A92A3">
+iPad:
+1,969
+</div><div class="morris-hover-point" style="color: #4da74d">
+iPod Touch:
+2,501
+</div></div><div class="morris-hover morris-default-style" style="display: none;"></div><div class="morris-hover morris-default-style" style="left: 641.594px; top: 7679px; display: none;"><div class="morris-hover-row-label">2012 Q2</div><div class="morris-hover-point" style="color: #0b62a4">
+  iPhone:
+  8,432
+</div><div class="morris-hover-point" style="color: #7A92A3">
+  iPad:
+  5,713
+</div><div class="morris-hover-point" style="color: #4da74d">
+  iPod Touch:
+  1,791
+</div></div><div class="morris-hover morris-default-style" style="left: 154.758px; top: 469px; display: none;"><div class="morris-hover-row-label">2010 Q3</div><div class="morris-hover-point" style="color: #0b62a4">
+  iPhone:
+  4,912
+</div><div class="morris-hover-point" style="color: #7A92A3">
+  iPad:
+  1,969
+</div><div class="morris-hover-point" style="color: #4da74d">
+  iPod Touch:
+  2,501
+</div></div><div class="morris-hover morris-default-style" style="left: 450.566px; top: 1686px; display: none;"><div class="morris-hover-row-label">2011 Q3</div><div class="morris-hover-point" style="color: #0b62a4">
+  iPhone:
+  4,820
+</div><div class="morris-hover-point" style="color: #7A92A3">
+  iPad:
+  3,795
+</div><div class="morris-hover-point" style="color: #4da74d">
+  iPod Touch:
+  1,588
+</div></div></div>
+                      </div>
+                      <!-- /.panel-body -->
+                  </div>
+                  <!-- /.panel -->
+                  <div class="panel panel-default">
+
+                      <!-- /.panel-heading -->
+
+                      <!-- /.panel-body -->
+                  </div>
+                  <!-- /.panel -->
+                  <div class="panel panel-default">
+
+                      <!-- /.panel-heading -->
+
+                      <!-- /.panel-body -->
+                  </div>
+                  <!-- /.panel -->
+              </div>
+              
+              
+              
+          </div>
+          <!-- /.row -->
+      </div>
+      <!-- /#page-wrapper -->
+
+		</div>
+
+
+        <!-- jQuery -->
+        <script src="./ReportsDash_files/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="./ReportsDash_files/bootstrap.min.js"></script>
+
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="./ReportsDash_files/metisMenu.min.js"></script>
+
+        <!-- Morris Charts JavaScript -->
+        <script src="./ReportsDash_files/raphael.min.js"></script>
+        <script src="./ReportsDash_files/morris.min.js"></script>
+        <script src="./ReportsDash_files/morris-data.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="./ReportsDash_files/sb-admin-2.js"></script>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="./ReportsDash_files/jquery.min(1).js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="file:///Users/dist/js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="file:///Users/assets/js/vendor/holder.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="file:///Users/assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</div></div></body></html>
